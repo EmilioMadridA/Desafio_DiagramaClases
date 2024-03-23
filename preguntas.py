@@ -1,5 +1,5 @@
 class Pregunta:
-    def __init__(self, enunciado, ayuda=None, requerida=False, alternativas=None):
+    def __init__(self, enunciado: str, ayuda=None, requerida=False, alternativas=None):
         self.enunciado = enunciado
         self.ayuda = ayuda
         self.requerida = requerida

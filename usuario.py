@@ -1,5 +1,5 @@
 class Usuario:
-    def __init__(self, correo, edad, region):
+    def __init__(self, correo: str, edad: int, region: str):
         self.correo = correo
         self.edad = edad
         self.region = region

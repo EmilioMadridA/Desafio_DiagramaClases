@@ -1,5 +1,5 @@
 class Alternativa:
-    def __init__(self, contenido, ayuda=None):
+    def __init__(self, contenido: str, ayuda=None):
         self.contenido = contenido
         self.ayuda = ayuda
     
