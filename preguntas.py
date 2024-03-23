@@ -1,3 +1,6 @@
+# Importacion de clases externas
+from alternativa import Alternativa
+
 class Pregunta:
     def __init__(self, enunciado: str, ayuda=None, requerida=False, alternativas=None):
         self.enunciado = enunciado

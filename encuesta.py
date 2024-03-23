@@ -1,3 +1,7 @@
+# Importacion de clases externas
+from pregunta import Pregunta
+from listado_respuestas import ListadoRespuestas
+
 class Encuesta:
     def __init__(self, nombre: str, preguntas: dict):
         self.nombre = nombre
